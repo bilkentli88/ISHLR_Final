@@ -1,0 +1,38 @@
+{
+  "seed": 20261007,
+  "resamples": 200,
+  "cohort_observations": 639,
+  "resampling_unit": "complete retrospective annotation trajectory",
+  "gamma": 12.0,
+  "numerical_guard": 1e-12,
+  "raw_feasible_maximum_relaxation": 1e-10,
+  "pseudo_final_results": {
+    "1": {
+      "reference_frequencies_within_intervals": 19,
+      "raw_feasibility_fraction": 1.0,
+      "median_minimum_relaxation": 0.0,
+      "p95_minimum_relaxation": 0.0,
+      "median_mean_width": 0.02921148720040675,
+      "p025_mean_width": 0.022882536157039165,
+      "p975_mean_width": 0.03865703134912982
+    },
+    "7": {
+      "reference_frequencies_within_intervals": 17,
+      "raw_feasibility_fraction": 0.9,
+      "median_minimum_relaxation": 0.0,
+      "p95_minimum_relaxation": 0.0002517348888976696,
+      "median_mean_width": 0.011440457330759254,
+      "p025_mean_width": 0.00738130831677904,
+      "p975_mean_width": 0.016912182576752515
+    },
+    "90": {
+      "reference_frequencies_within_intervals": 7,
+      "raw_feasibility_fraction": 0.37,
+      "median_minimum_relaxation": 7.285804803964919e-05,
+      "p95_minimum_relaxation": 0.0019871620612217514,
+      "median_mean_width": 0.00410944638554414,
+      "p025_mean_width": 0.0020114005590340595,
+      "p975_mean_width": 0.007613283910414007
+    }
+  }
+}

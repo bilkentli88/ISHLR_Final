@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use these reproduction materials, cite the associated manuscript."
+title: "Informatively Stopped Hierarchical Label Refinement: Sharp Identification and Sensitivity Analysis"
+authors:
+  - family-names: Altay
+    given-names: Aykut T.
+type: software
+license: MIT

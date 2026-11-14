@@ -1,0 +1,26 @@
+{
+  "cohort_observations": 639,
+  "reference_species": 21,
+  "gamma": 12,
+  "tolerance": 1e-09,
+  "interval_comparisons": {
+    "hierarchy_only": {
+      "within": 21,
+      "outside": 0,
+      "max_endpoint_gap": 0.0
+    },
+    "final_horizon": {
+      "within": 10,
+      "outside": 11,
+      "max_endpoint_gap": 0.0004518840339979638
+    },
+    "all_horizons": {
+      "within": 7,
+      "outside": 14,
+      "max_endpoint_gap": 0.0010671656012334746
+    }
+  },
+  "ordered_sibling_constraints_violated": 80,
+  "max_positive_lp_residual": 0.002821309704864383,
+  "note": "Reference assignments are within-cohort counts, not independent population probabilities or confidence coverage."
+}

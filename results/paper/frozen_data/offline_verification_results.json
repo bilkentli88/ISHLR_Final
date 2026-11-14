@@ -1,0 +1,52 @@
+{
+  "verification": "PASS",
+  "method": "Recomputed from frozen screening, event, and trajectory CSV records, without live API access",
+  "selection_observation_ids_reproduced": 695,
+  "quality_excluded_species": "Larus smithsonianus",
+  "quality_excluded_observations": 56,
+  "candidate_identification_hits": 4400,
+  "unique_candidate_observations": 4141,
+  "compatible_withdrawn_events_cleaned": 68,
+  "trajectory_checks": {
+    "initial_695": {
+      "observations": 695,
+      "species": 22,
+      "genera": 8,
+      "checked_state_cells": 3475,
+      "state_mismatches": 0,
+      "start_mismatches": 0
+    },
+    "cleaned_639": {
+      "observations": 639,
+      "species": 21,
+      "genera": 8,
+      "checked_state_cells": 3195,
+      "state_mismatches": 0,
+      "start_mismatches": 0
+    }
+  },
+  "gamma12": {
+    "unfiltered_695": {
+      "hierarchy_mean_width": 0.026684107259646806,
+      "final_mean_width": 0.016158513645716358,
+      "all_mean_width": 0.014593029713297075,
+      "reduction_vs_hierarchy": 0.4531190580482538,
+      "reduction_vs_final": 0.09688291675480287,
+      "leaf_intervals_tightened": 21,
+      "raw_feasible_at_gamma12": true,
+      "min_full_history_gamma": 10.222793579101562,
+      "min_final_horizon_gamma": 1.0
+    },
+    "cleaned_639": {
+      "hierarchy_mean_width": 0.00871898054996655,
+      "final_mean_width": 0.005636207383645387,
+      "all_mean_width": 0.004041562045792889,
+      "reduction_vs_hierarchy": 0.5364639222863739,
+      "reduction_vs_final": 0.2829287904628366,
+      "leaf_intervals_tightened": 21,
+      "raw_feasible_at_gamma12": true,
+      "min_full_history_gamma": 9.532272338867188,
+      "min_final_horizon_gamma": 1.0
+    }
+  }
+}

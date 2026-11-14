@@ -1,0 +1,6 @@
+Package validation environment (not a record of the original benchmark CPU):
+Python: 3.13.5
+NumPy: 2.3.5
+SciPy: 1.17.0
+OS family: Linux
+Architecture: x86_64

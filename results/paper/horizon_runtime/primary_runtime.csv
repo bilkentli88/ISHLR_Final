@@ -1,0 +1,3 @@
+leaves,horizons,gamma,formulation,inequalities,endpoint_LPs,mean_leaf_interval_width,median_32_LP_time_seconds,timing_repeats
+16,3,4.0,final,63,32,0.11484074798142302,0.04149941699984083,7
+16,3,4.0,all,135,32,0.10966039454569984,0.048273326999833444,7

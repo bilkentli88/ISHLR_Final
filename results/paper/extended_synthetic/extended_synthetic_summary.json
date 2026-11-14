@@ -1,0 +1,30 @@
+{
+  "configurations": 72,
+  "support_comparisons": 288,
+  "depths": [
+    2,
+    3,
+    4
+  ],
+  "horizon_counts": [
+    2,
+    5
+  ],
+  "dirichlet_concentrations": [
+    0.35,
+    2.0
+  ],
+  "gamma_values": [
+    3.0,
+    6.0
+  ],
+  "leaf_count_min": 4,
+  "leaf_count_max": 43,
+  "max_flow_variables": 943,
+  "max_compact_inequalities": 630,
+  "max_true_sibling_odds": 2.1131857137098002,
+  "max_truth_violation": 2.220446049250313e-16,
+  "max_objective_difference": 2.220446049250313e-15,
+  "base_scenarios": 36,
+  "distinct_tree_structures": 9
+}

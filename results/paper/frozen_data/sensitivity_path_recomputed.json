@@ -1,0 +1,63 @@
+{
+  "cohort_observations": 639,
+  "horizons_days": [
+    0,
+    1,
+    7,
+    30,
+    90
+  ],
+  "method": "LP minimum relaxation of sibling sensitivity rows, common-eta endpoint comparison",
+  "sensitivity_path": {
+    "6": {
+      "minimum_relaxation": 0.00014970710335498072,
+      "raw_feasible": false,
+      "hierarchy_only_width": 0.00871898054996655,
+      "final_horizon_width_common_relaxation": 0.005663011429895023,
+      "all_horizon_width": 0.003495974006426942,
+      "tightening_vs_hierarchy": 0.5990386735705753,
+      "tightening_vs_final": 0.382665203892808
+    },
+    "8": {
+      "minimum_relaxation": 3.6699523036323733e-05,
+      "raw_feasible": false,
+      "hierarchy_only_width": 0.00871898054996655,
+      "final_horizon_width_common_relaxation": 0.005147948824087792,
+      "all_horizon_width": 0.0030763335121923446,
+      "tightening_vs_hierarchy": 0.6471682102554814,
+      "tightening_vs_final": 0.4024156771338018
+    },
+    "12": {
+      "minimum_relaxation": 0.0,
+      "raw_feasible": true,
+      "hierarchy_only_width": 0.00871898054996655,
+      "final_horizon_width_common_relaxation": 0.005636207391466706,
+      "all_horizon_width": 0.004041562063101256,
+      "tightening_vs_hierarchy": 0.5364639203012374,
+      "tightening_vs_final": 0.282928788386986
+    },
+    "20": {
+      "minimum_relaxation": 0.0,
+      "raw_feasible": true,
+      "hierarchy_only_width": 0.00871898054996655,
+      "final_horizon_width_common_relaxation": 0.006548649181611278,
+      "all_horizon_width": 0.005567739188480827,
+      "tightening_vs_hierarchy": 0.36142314384424357,
+      "tightening_vs_final": 0.14978814193999945
+    }
+  },
+  "comparisons_to_published_precision": {
+    "6": {
+      "max_absolute_difference_vs_published_precision": 4.006426941940977e-09
+    },
+    "8": {
+      "max_absolute_difference_vs_published_precision": 3.335121923444574e-07
+    },
+    "12": {
+      "max_absolute_difference_vs_published_precision": 3.101256230986227e-12
+    },
+    "20": {
+      "max_absolute_difference_vs_published_precision": 3.508183887218977e-07
+    }
+  }
+}
